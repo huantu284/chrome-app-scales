@@ -21,6 +21,14 @@
 
 安装之后，就可以参照 [/src/app/index.js](https://github.com/lmk123/chrome-app-scales/blob/master/src/app/index.js) 里的代码获取数据了,我以后也会写一份详细的文档来说明其它网站或扩展要如何连接至此应用获取数据的.
 
+## 参与开发
+
+首先确保你安装了 [Node.js](https://nodejs.org)，然后在项目根目录运行 `npm install` 安装项目依赖。
+
+每次开发之前，你都需要先运行 `npm run dev`，然后打开 Chrome 的扩展程序页（chrome://extensions/），勾选右上角的「开发者模式」，点击「加载已解压的扩展程序」，最后将路径指向项目的 `src` 文件夹。
+
+每次更改代码之后，你都要点一下「重新加载」让代码生效。
+
 ## 许可
 
 MIT

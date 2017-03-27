@@ -2,8 +2,8 @@
   "private": true,
   "description": "读取电子秤读数的 Chrome App",
   "scripts": {
-    "webpack": "webpack",
-    "gulp": "gulp"
+    "dev": "webpack",
+    "build": "gulp"
   },
   "license": "MIT",
   "dependencies": {

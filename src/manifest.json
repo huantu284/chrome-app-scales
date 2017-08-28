@@ -1,7 +1,7 @@
 {
   "name" : "读取 USB 与串行接口设备的数据" ,
   "description" : "让普通网页也能读取使用串行接口接入到电脑的设备的数据，例如电子秤的读数。" ,
-  "version" : "1.0.3" ,
+  "version" : "1.0.4" ,
   "manifest_version" : 2 ,
   "permissions" : [
     "serial" ,
@@ -30,7 +30,8 @@
       "*://127.0.0.1:*/*" ,
       "*://192.168.10.18:*/*" ,
       "*://*.yi-express.com:*/*" ,
-      "*://*.yi-ex.com:*/*"
+      "*://*.yi-ex.com:*/*",
+      "*://*.yyox.com:*/*"
     ]
   } ,
   "minimum_chrome_version" : "41"
